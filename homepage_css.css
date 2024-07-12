@@ -1,0 +1,215 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+#back123::after {
+    content: ""; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    background-image: url('https://t4.ftcdn.net/jpg/00/89/88/45/360_F_89884561_M3enHVLX5WJ25KRFkNHaPmvBgHKZUbdh.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    filter: blur(1px); 
+    z-index: -1; 
+}
+
+
+#navbar{
+    position: fixed;
+    box-shadow: none;
+    height:81px;
+    width: 100%;
+    background-color: #001524; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+#image1{
+    height: 60px;
+    width: 60px;
+    position:fixed;
+    top:8.5px;
+    left:9px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBJcPYQO-t2vzPQ4f_AcEu2xuAPfuEZRIswQ&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid white;
+    border-radius: 100px;
+}
+#image{
+    height: 60px;
+    width: 60px;
+    position:fixed;
+    top:8.5px;
+    right:9px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-hwRtf44uvzNoXKGcvX4mFbdee8IR0Z52Sg&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid white;
+    border-radius: 100px;
+}
+::placeholder{
+    color: #640404;
+    background-color: #d4eeff;
+    
+}
+#control{
+    max-height: auto;
+    max-width: auto;
+}
+.atag1{
+    height: auto;
+    width: auto;
+    background-color:#ffffff;
+    color: #07081c;
+    border: 2px double rgb(255, 0, 0);
+    text-decoration: none;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 23px;
+    margin-right: 14px;
+    padding: 2px;
+    border-radius: 9px;
+}
+.atag1:hover{
+    background-color: rgb(0, 255, 229);
+    color:rgb(0, 0, 0);
+    border: 3px double rgb(254, 135, 0)
+}
+
+#navbar:hover{
+    background-color: #16063d;
+    color:rgb(92, 6, 6);
+    border: 1px double rgba(63, 0, 254, 0.388)
+}
+.search{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid white;
+
+}
+.search1{
+    color: black;
+    background-color: rgb(255, 140, 0);
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px double rgb(255, 255, 255);
+}
+.search1:hover{
+    background-color: #515be0;
+}
+#bar1{
+    height: 90px;  
+    width: 1263px;
+    background-color: #fd8f00;
+}
+
+.qwerty{
+    height: 130px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px rgb(61, 66, 75) double;
+
+}
+.ni0{
+    text-decoration: none;
+    color: white;
+    line-height: 21px;
+}
+.ni0:hover{
+    color: gold;
+    text-decoration: underline;
+}
+.bolder{
+    text-decoration: underline;
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+.help{
+    color: white;
+    margin: 40px;
+    }
+    #qaz{
+        height: 280px;
+        background-color: #232f3e;
+        display: flex;
+        justify-content: center;
+    }
+
+.jin{
+    height: auto;
+    width: auto;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#main1{
+    height:300px;
+    width: auto;
+    background-color: #7586947c;
+    position: static;
+} 
+
+.op11{
+    background-color: #04171adc;
+    color: #c2e2f7;
+    text-decoration: none;
+    border: 2px solid red;
+}
+
+#cd{
+    height: 40px;
+    width: 210px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid brown;
+    margin-left: 525px ;
+    background-color: hsla(0, 100%, 50%, 0.673);
+    text-decoration: none;
+    color: #ffffff;
+
+}
+.ko{
+    height: auto;
+    width: 300px;
+    background-color: #f5e400;
+    display: flex;
+    justify-content: center;
+    border: 2px solid brown;
+    margin-left: 479px;
+}
+.up{
+    text-decoration: none;
+    color: #f5e400;
+    font-weight: 600;
+    font-size: medium;
+}
+
+.up:hover{
+    color: #646eff;
+}
+
+#pp{
+    margin-top: 33px ;
+    margin-left:150px ;
+}
+
+#cd {
+    color: initial; /* Initial color of the link */
+    text-decoration: none; /* Remove underline if needed */
+}
+
+#cd:hover {
+    color: #ffffff; /* Change to desired color on hover */
+    background-color: #04171adc;
+}
